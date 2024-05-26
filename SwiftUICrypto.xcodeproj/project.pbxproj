@@ -11,6 +11,7 @@
 		AD648D922BFE988B009598F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD648D912BFE988B009598F4 /* ContentView.swift */; };
 		AD648D942BFE988E009598F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD648D932BFE988E009598F4 /* Assets.xcassets */; };
 		AD648D972BFE988E009598F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD648D962BFE988E009598F4 /* Preview Assets.xcassets */; };
+		AD648DA72C037EC5009598F4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD648DA62C037EC5009598F4 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AD648D912BFE988B009598F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD648D932BFE988E009598F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD648D962BFE988E009598F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD648DA62C037EC5009598F4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AD648D8F2BFE988B009598F4 /* SwiftUICryptoApp.swift */,
 				AD648D912BFE988B009598F4 /* ContentView.swift */,
+				AD648DA52C037E78009598F4 /* Extensions */,
 				AD648D932BFE988E009598F4 /* Assets.xcassets */,
 				AD648D952BFE988E009598F4 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				AD648D962BFE988E009598F4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD648DA52C037E78009598F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD648DA62C037EC5009598F4 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				AD648D922BFE988B009598F4 /* ContentView.swift in Sources */,
 				AD648D902BFE988B009598F4 /* SwiftUICryptoApp.swift in Sources */,
+				AD648DA72C037EC5009598F4 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
