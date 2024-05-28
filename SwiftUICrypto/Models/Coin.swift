@@ -1,5 +1,5 @@
 //
-//  CoinModel.swift
+//  Coin.swift
 //  SwiftUICrypto
 //
 //  Created by Siarhei Ramaniuk on 27.05.24.
