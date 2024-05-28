@@ -1,5 +1,5 @@
 //
-//  Color.swift
+//  Color+Ext.swift
 //  SwiftUICrypto
 //
 //  Created by Siarhei Ramaniuk on 26.05.24.
